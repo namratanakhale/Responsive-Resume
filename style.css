@@ -104,13 +104,16 @@
     padding: 0.5rem;
 }
 
+
 @media screen and(max-width: 630px)
 .main-content{
     grid-template-columns: repeat(1, 1fr);
+    flex-wrap: wrap;
 }
 @media screen and(max-width: 673px)
 .main-content{
     grid-template-columns: repeat(1, 1fr);
+    flex-wrap: wrap;
 }
 .social-media{
     display: flex;
