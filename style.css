@@ -32,6 +32,7 @@
     font-weight: 700;
     padding: 0.8rem;
     letter-spacing: 0.02px;
+    text-transform: uppercase;
 }
 .profile-details{
     display: block;
@@ -97,6 +98,7 @@
 }
 .title{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 0.5rem;
 }
@@ -105,16 +107,21 @@
 }
 
 
-@media screen and(max-width: 630px)
+@media (max-width: 630px)
+{
 .main-content{
     grid-template-columns: repeat(1, 1fr);
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
-@media screen and(max-width: 673px)
+}
+@media (max-width: 673px)
+{
 .main-content{
     grid-template-columns: repeat(1, 1fr);
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
+}
+
 .social-media{
     display: flex;
     justify-content: space-around;
