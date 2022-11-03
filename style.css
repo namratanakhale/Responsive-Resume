@@ -61,10 +61,11 @@
     
 }
 .description{
-    font-size: 0.75 rem;
+    text-transform: uppercase;
     text-align: center;
     color: #f7f7f7;
     padding: 1rem;
+    font-size: 0.75rem;
 }
 
 .skills{
